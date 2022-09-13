@@ -13,8 +13,10 @@ public class Menus {
 	}
 	
 	public static void menuListados() {
-		
-		
+		System.out.println("1. Listado juegos del Genre plataforma.");
+		System.out.println("2. Listado todos los juegos.");
+		System.out.println("3. Listado juegos de Nintendo.");
+		System.out.println("4. Listado Publishers.");
 	}
 
 }
