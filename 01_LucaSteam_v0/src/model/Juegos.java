@@ -19,6 +19,13 @@ public class Juegos {
 		this.genero = genero;
 		this.publisher = publisher;
 	}
+	
+	//ESPECIALISTA CREADOR JUEGOS
+	public static Juegos creadorJuegos(String nombre, String plataforma, String year, String genero, String publisher) {
+		Juegos j = new Juegos(nombre, Platforms.elegirPlataforma(plataforma),
+							Integer.parseInt(year),Genre.elegirGenero(genero), publisher);
+		return j;
+	}
 
 	public String getNombre() {
 		return nombre;
