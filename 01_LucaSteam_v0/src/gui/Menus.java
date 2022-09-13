@@ -1,0 +1,20 @@
+package gui;
+
+public class Menus {
+	
+	public static void menuInicial() {
+		System.out.println("1. Gestion de juegos.");
+		System.out.println("2. Listados.");
+	}
+	
+	public static void menuGestion() {
+		
+		
+	}
+	
+	public static void menuListados() {
+		
+		
+	}
+
+}
