@@ -1,3 +1,6 @@
-/service/
 /control/
 /data/
+/model/
+/service/
+/util/
+/gui/
